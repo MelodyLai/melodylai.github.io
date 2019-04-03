@@ -1,0 +1,148 @@
+body {
+  background: #edf2c5;
+}
+
+* {
+  font-family: Arial;
+}
+
+.page {
+  max-width: 1260px;
+  margin: 0px auto 0px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  margin: 53px auto 8px auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 940px;
+}
+
+.header-title {
+  font-family: Arial Black;
+  font-size: 44px;
+  color: #778a50;
+  margin: 0;
+}
+
+.header-button-list {
+  display: flex;
+  cursor: pointer;
+}
+
+.header-button-list img {
+  height: 25px;
+  width: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.line {
+  border-left: solid #778a50 1px;
+  margin-left: 5px;
+}
+
+.header-button-list button {
+  font-family: Arial;
+  font-weight: bold;
+  margin-left: 10px;
+  border-radius: 3px;
+  border: solid #778a50 1px;
+  background: transparent;
+  color: #778a50;
+  height: 25px;
+  cursor: pointer;
+}
+
+nav {
+  width: 940px;
+  background: #778a50;
+  padding: 16px 0;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  font-family: Arial Black;
+  text-decoration: none;
+  font-size: 16px;
+  color: #edf2c5;
+  margin: 0 30px;
+}
+
+.banner {
+  width: 940px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 940px;
+  margin-bottom: 35px;
+}
+
+main .block {
+  width: 445px;
+}
+
+main .block-title {
+  font-family: Arial Black;
+  font-size: 16px;
+  padding: 15px 30px;
+  margin-bottom: 15px;
+  background: #778a50;
+  color: #edf2c5;
+  border-radius: 3px;
+}
+
+.img-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-list img {
+  height: 140px;
+  width: 140px;
+}
+
+.block-content {
+  padding: 16px 15px;
+  border-radius: 3px;
+  background: #f7fbda;
+}
+
+.block-content-word {
+  font-size: 12px;
+  line-height: 1.33;
+  margin: 0;
+  color: #7d7d7d;
+}
+
+.block-content-contact {
+  font-size: 12px;
+  line-height: 1.83;
+  margin: 0;
+  color: #7d7d7d;
+}
+
+.block-divide {
+  border-top: solid #7d7d7d 1px;
+  margin: 16px 0;
+}
+
+footer {
+  font-size: 12px;
+  width: 100%;
+  background: #778a50;
+  color: #edf2c5;
+  text-align: center;
+  padding: 24px 0 25px 0;
+}
